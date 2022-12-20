@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌎💬World emoji</title>
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+<style>
+*{
+    margin:0;   
+    padding:0;
+    }
+    ul{
+    list-style-type:none;    
+    }
+    #main_title{
+        font-family: 맑은고딕;
+        margin:10;
+        padding-bottom: 6px;
+        border-bottom: solid 2px #090909
+    }
+    .list_item{
+        width: 560px;   
+        height: 150px;
+        margin: 10px;
+        border-bottom: solid 1px #cccccc
+    }
+    .image{
+        float:left;
+        width:100px;
+    }
+    .intro{
+        
+        float: left;
+        width:240px;
+        margin-left: 30px;
+        font-weight: bold;
+        font-size: 19px;
+    }
+    .price{
+        float: left;
+        width: 190px;
+    }
+    .red{
+        font-weight: bold;
+        color:red;
+    }
+    .small{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .writer{
+        float: left;
+        width:300px;
+        margin: 10px 50px 10px 10px;
+    }
+    .buy{
+        float:left;
+        border-radius: 30px;
+        padding: 5px;
+        text-align:center;
+        margin:0 0 0 0;
+       color:#d44343;
+        width: 100px;
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+    #top{
+        float: right;
+        margin: 0 30px 30px 30px;
+        color:#a3a3a3;
+        font-size:12px;
+            
+    }
+    a{
+    text-decoration: none;
+    color:#ffffff;
+    
+}
+    aside{
+       clear: left;
+        float:left;
+        margin:0 30px 0 450px;
+        width: 150px;
+    }
+    section{
+        float: right;
+       
+        margin:0px 200px 50px 10px;
+        width: 880px;
+    }
+    footer{
+        clear:both;
+        margin:60px 0 20px 0;
+        padding: 30px 10px 10px 30px;
+        color:#bbbbbb;
+        width: 1690px;
+        height:100px;
+        text-align: center;
+    }
+    #logo{
+            float: left;
+            margin: 10px 0 50px 70px; 
+        }  
+    #navigation{
+        clear:both;
+    }
+    #menu li{
+            display: inline;
+        }
+    nav{
+            clear: both;
+            float:left;
+            margin: 30px 0 90px 530px;
+            height: 40px;
+            /*background-color: #ffffff;*/
+            text-align: center;
+            padding-top: 15px;
+            font-size: 16px;
+            font-weight:bold;
+        }
+    #kyobo{
+            margin: 10px;
+        }
+    #header{
+            margin:0 0 0 20px;    
+            padding: 10px;
+        }
+    
+    span{
+        font-size: 13px;
+        margin-left:20px;
+        color:#ffffff;
+        }
+    #menu{
+            height: 20px;
+            float: left;
+            margin: 0 30px 0 60px;
+            text-align: center; 
+            font-size: 16px;
+            font-weight:bold;
+            clear: both;
+        }
+    #menu2{
+        
+     float:right;
+     margin: 0px 20px 0 1270px;
+     clear: both;
+     height: 40px;
+     text-align: center;
+     padding-top: 15px;
+     font-size: 14px;
+     font-weight:bold;
+     }
+     #homeparty{
+    float: left;
+    width:700px;
+    height: 300px;
+    margin: 20px 0 0 40px;
+    }
+    #section{
+        width: 880px;
+        float: right;
+        margin: 0 290px 40px 10px;
+       
+    }
+    #aside{
+
+     float:left;
+     margin:10px 5px 200px 360px;
+     width: 128px;
+   
+    }
+    h4{
+        float:right;
+        margin: 5px 610px 30px 10px;
+        color: #ffffff;
+        font-size: 14px;
+       
+    }
+    h5{ 
+        float:right;
+        margin: 100px 515px 0 10px;
+        color: #dbdbdb;
+        
+    }
+    h6{ 
+        float:right;
+        margin: 20px 665px 0 10px;
+        color: #dbdbdb;
+        text-align: center;
+        
+    }
+    #center{
+        margin: 20px 565px 80px 10px;
+    }
+   h3{
+    float:right;
+    margin: 5px 126px 30px 10px;
+    color: #ffffff;
+
+   }
+  body{
+    background-image:url(final_src/gradient_blur.jpg);
+  }
+  textarea{
+    float: right;
+    background-blend-mode: hue;
+    color: rgb(234, 0, 255);
+    font-size:43px;
+    margin: 10px 465px 0 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h2{
+    float:right;
+    margin: 5px 610px 50px 10px;
+    color: #ffffff;
+
+  }
+  h1{
+    float:right;
+    margin: 5px 635px 40px 10px;
+    color: #2eff27;
+
+  }
+  span{
+    float:right;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 32px 445px 30px 10px;
+    font-weight: bold;
+  }
+  table{
+    float:right;
+    margin: 50px 510px 50px 10px;
+  }
+  table2{
+    float:right;
+    margin: 50px 310px 100px 10px;
+  }
+  .pink{
+    float:right;
+    color:#bb00e0;
+    font-weight: bold;
+  }
+  #video{
+    float:right;
+    margin: 0 578px 30px 10px;
+    clear:both;
+  }
+  #small{
+    float:right;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 10px 465px 60px 10px;
+    font-size: 14px;
+  }
+</style>
+<body>
+  
+    <br><br>
+    </head>
+    <div>
+        <header id="navigiation">
+            <div id="logo">
+                <a href="index.html"><img src="final_src/logo.png" width="90" ></a>
+                <ul id="menu2">
+                    <a href="로그인">로그인 &nbsp;·</a> 
+                    <a href="로그인">회원가입 &nbsp;·</a> 
+                    <a href="로그인">&nbsp;공지사항</a>
+                    </ul>
+                </div>
+
+        <nav>
+                <ul id="menu">
+    
+                    <li class="item"><a href="history.html">Best  &nbsp;ㅣ</a> </li>
+                    <li></li>
+                    <li class="item"><a href="worldemojis.html">&nbsp;Worldemojis  &nbsp;ㅣ</a></li>
+                    <li></li>
+                    <li class="item"><a href="Mimoticon.html">&nbsp;Mimoticon  &nbsp;ㅣ</a></li>
+                    <li></li>
+                    <li class="item"><a href="Kakaoemoticon.html">&nbsp;Kakao emoticon  &nbsp;ㅣ</a></li>
+                    <li></li>
+                    <li class="item"><a href="shop.html">&nbsp;Shop  &nbsp;</a></li>
+                    <li></li>
+                    
+                </ul>
+        </nav>
+        </header>
+    
+        <image id="video" src="final_src/emotion.gif" width="500"></image>
+        <h2>당신이 전달하고 싶은 감정은 무엇인가요?</h2>
+        
+     
+       
+       <table id="table">
+       
+        <tr>
+            <th><img src="smiling-face-with-heart-eyes_1f60d1.png" width="80"></th>
+            <th><img src="/face-blowing-a-kiss_1f6182.png" width="80"></th>
+            <th><img src="final_src/microsoft/star-struck_1f9293.png" width="80"></th>
+            <th><img src="final_src/microsoft/alien_1f47d4.png" width="80"></th>
+            <th><img src="final_src/microsoft/zany-face_1f92a5.png" width="80"></th>
+            <th><img src="final_src/microsoft/face-in-clouds_1f636-200d-1f32b-fe0f6.png" width="80"></th>
+            <th><img src="final_src/microsoft/face-vomiting_1f92e7.png" width="80"></th>
+            <th><img src="final_src/microsoft/disguised-face_1f9788.png" width="80"></th>
+        </tr>
+        <tr>
+            <th><img src="final_src/microsoft/face-with-spiral-eyes_1f635-200d-1f4ab9.png" width="60"></th>
+            <th><img src="final_src/microsoft/loudly-crying-face_1f62d10.png" width="80"></th>
+            <th><img src="final_src/microsoft/partying-face_1f97311.png" width="80"></th>
+            <th><img src="final_src/microsoft/sad-but-relieved-face_1f62512.png" width="80"></th>
+            <th><img src="final_src/microsoft/sleeping-face_1f63413.png" width="80"></th>
+            <th><img src="final_src/microsoft/face-with-monocle_1f9d014.png" width="80"></th>
+            <th><img src="final_src/microsoft/expressionless-face_1f61115.png" width="80"></th>
+            <th><img src="final_src/microsoft/face-savoring-food_1f60b16.png" width="80"></th>
+        </tr>
+        <tr>
+            <th><img src="final_src/microsoft/upside-down-face_1f64317.png" width="80"></th>
+            <th><img src="final_src/microsoft/zipper-mouth-face_1f91018.png" width="80"></th>
+            <th><img src="final_src/microsoft/smiling-face-with-tear_1f97219.png" width="80"></th>
+            <th><img src="final_src/microsoft/smiling-face-with-sunglasses_1f60e20.png" width="80"></th>
+            <th><img src="final_src/microsoft/money-mouth-face_1f91121.png" width="80"></th>
+            <th><img src="final_src/microsoft/smiling-face-with-halo_1f60722.png" width="80"></th>
+            <th><img src="final_src/microsoft/face-with-steam-from-nose_1f62423.png" width="80"></th>
+            <th><img src="final_src/microsoft/face-with-symbols-on-mouth_1f92c24.png" width="80"></th>
+        </tr>
+       </table>
+       <span>2022년 연말을 맞아 서로에게 따뜻한 글귀를 적어보아요!</span><br><br>
+       <textarea name="서로에게 따뜻한 이모지를 남겨보아요!" id="textarea" cols="30" rows="2"></textarea>
+       <span id="small">흰색 박스 안에 글을 적을 수 있어요!</span>
+    <footer>
+     <h5>회사소개 ㅣ 이용약관 ㅣ 개인정보처리방침ㅣ 청소년보호정책ㅣ 대량주문안내ㅣ 협력사여려분ㅣ채용정보ㅣ광고소개</h5>
+     <h6>대표이사: 박민영ㅣ 서울특별시 종로구 종로 1ㅣ 사업자 등록번호: 102-81-11670</h6>
+     <h6 id="center">대표전화: 1544-1900(발신자부담전화) ㅣ FAX: 0502-987-5711(지역번호 공통) ㅣ 서울특별시 통신판매업신고번호: 제 653호</h6>
+    </footer>
+
+
+   
+</body>
+</html>
